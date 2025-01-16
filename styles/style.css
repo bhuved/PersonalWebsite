@@ -10,11 +10,10 @@ body{
 }
 .navbar {
     display:flex;
-    align-items: center;
     justify-content: center;
     position: sticky;
     top: 0;
-    padding: 15px;
+    padding: 20px;
     cursor: pointer;
 }
 
@@ -37,7 +36,8 @@ body{
 
 .nav-list li a {
     display: block;
-    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
     text-align: center;
     padding: 14px 60px;
     gap: 20px;
@@ -46,7 +46,7 @@ body{
 }
 
 .nav-list li a:hover {
-    color: rgb(82, 82, 82);
+    color: rgb(139, 23, 23);
 }
 .firstsection {
     background-color:cadetblue;
@@ -61,6 +61,13 @@ body{
     background-color: cadetblue;
     height: 100px;
 }
+.roundborder {
+    border: 1px solid rgb(110, 121, 94);
+    border-radius: 5px;
+  }
+  .menuborder{
+    border:2px solid;
+  }
 .box-main {
     display: flex;
     justify-content: center;
